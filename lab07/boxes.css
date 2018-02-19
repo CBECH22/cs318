@@ -1,0 +1,45 @@
+body {
+    background-color: gray;
+  }
+  
+  .outerbox {
+    margin: 10px;
+    background-color: goldenrod;
+    display: inline-block;
+  }
+  
+  .innerbox {
+    display: inline-block;
+    background-image: linear-gradient(salmon, salmon), linear-gradient(#1E90FF, #1E90FF);
+    background-clip: content-box, padding-box;
+  }
+  
+  #box0 {
+  }
+
+  #box1{
+    padding: 10px;
+    border-style: dashed;
+    border-width: 5px;
+    margin: 15px;
+  }
+
+  #box2 {
+    padding: 10px;
+    border-style: dashed;
+    border-width: 3px;
+    margin: 0px;
+  }
+
+  #box3{
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+    margin: 15px;
+    width: 300px;
+  }
+
+  #box4{
+    width: 55px;
+    padding: 15px;
+    margin: 15px;
+  }

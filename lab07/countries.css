@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    background: rgb(98, 88, 116);
+    display: inline-block;
+}
+
+.stamp{
+    border-style: dashed;
+    border-color: green;
+    border-width: 4px;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    background-position: center;
+    box-shadow: 0px 12px 30px;
+}
+
+#unitedstates{
+    background-image: url(usaflag.jpg), url(usa.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: right top, center;
+    background-size: 150px 100px, auto 300px;
+}
+
+#brazil{
+    background-image: url(brazilflag,jpg.gif), url(brazil.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: right top, center;
+    background-size: 150px 100px, auto 300px;
+}
+
+#mexico{
+    background-image: url(mexicoflag.jpg), url(mexico.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: right top, center;
+    background-size: 150px 100px, auto 300px;
+}
+
+#canada{
+    background-image: url(canadaflag.jpg), url(canada.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: right top, center;
+    background-size: 150px 100px, auto 300px;
+}
+
