@@ -1,0 +1,33 @@
+body{
+    background-color: lavender;
+}
+
+#panel{
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    bottom: 50px;
+    left: 50px;
+    box-shadow: 4px 4px 4px black;
+}
+
+#picture{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.button{
+    position: fixed;
+    top: 50%;
+    width: 20px;
+    cursor: pointer;
+}
+
+#left{
+    left: 25px;
+}
+
+#right{
+    right: 25px;
+}
