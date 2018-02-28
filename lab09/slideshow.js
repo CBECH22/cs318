@@ -19,7 +19,7 @@ var urls = [
     picture.src = urls[i]; 
   }
   
-  // Advance
+  //Advance
   rightButton.onclick = function() {
     i = (i + 1) % urls.length;
     picture.src = urls[i]; 
