@@ -30,12 +30,17 @@ nav{
 
 #fire{
     background-image: url(http://www.pngmart.com/files/1/Fire-Flame-Transparent-Background.png);
-    width: 100%;
     position: fixed;
     bottom: 0;
-    height: 200px;
+    right: 0;
+    left: 0;
+    height: 300px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#paragraph7{
+    margin-bottom: 300px;
 }
 
 p{
