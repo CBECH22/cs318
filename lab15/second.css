@@ -1,0 +1,41 @@
+body{
+    background-image: url(http://www.dundjinni.com/forums/uploads/Ravenbow/49E_BrickRound70_CG_bg-a.png);
+
+}
+p{
+    color: white;
+    border-left-color: yellow;
+    border-left-style: solid;
+    border-left-width: 10px;
+    padding-left: 5px;
+    border-radius: 2%;
+}
+
+h1{
+    color: gold;
+}
+nav{
+    background-color: yellow;
+    padding: 10px;
+    width: 150px;
+    border-radius: 8%;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    margin-top: -58px;
+    float: right;
+}
+
+#fire{
+    background-image: url(http://www.pngmart.com/files/1/Fire-Flame-Transparent-Background.png);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    margin-bottom: 100px;
+}
