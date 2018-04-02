@@ -1,0 +1,16 @@
+td{
+    border: 1px solid black;
+    width: 10em;
+    text-align: center;
+    height: 2em;
+}
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+.color{
+    background-color: bisque;
+}
+th{
+    font-size: 24pt;
+}

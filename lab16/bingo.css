@@ -1,0 +1,20 @@
+td{
+    border: 1px solid black;
+    width: 5em;
+    height: 5em;
+    text-align: center;
+    font-size: 24pt;
+}
+#free{
+    background-color: lightblue;
+}
+th{
+    font-size: 48pt;
+}
+table{
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+td:hover{
+    background-color: yellow;
+}
