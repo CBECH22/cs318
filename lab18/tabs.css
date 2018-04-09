@@ -1,0 +1,41 @@
+.tab{
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    background-color: lightgoldenrodyellow;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    cursor: pointer;
+    outline: none;
+}
+.tab:focus{
+    background-color: gold;
+}
+#panel0{
+    background-color: lightgoldenrodyellow;
+    display: block;
+}
+#parent{
+    position: relative;
+    display: inline-block;
+}
+.panel{
+    position: absolute;
+    background-color: gold;
+    display: none;
+    width: 100%;
+}
+#tab1:focus ~ #panel1{
+    display: block;
+}
+#tab2:focus ~ #panel2{
+    display: block;
+}
+#tab3:focus ~ #panel3{
+    display: block;
+}
+img{
+    width: 98%;
+    padding: 5px;
+}
+
