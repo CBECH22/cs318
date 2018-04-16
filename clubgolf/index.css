@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(53, 192, 53);
+}
+#course{
+    width: 100%;
+    height: ;
+}
+header{
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    z-index: -1;
+}
+#title{
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    color: white;
+    font-size: 50pt;
+}
+nav{
+    background-color: white;
+    width: 790px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+}
+a{
+    padding: 33px;
+    width: 114px;
+    height:114px;
+}
+a:hover{
+    background-image: url(golfball.png);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+a:nth-child(1){
+    background-image: url(golfball.png);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#tee{
+    float: left;
+}
+main{
+    background-color: white;
+
+}

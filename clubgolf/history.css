@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(53, 192, 53);
+}
+#course{
+    width: 100%;
+}
+header{
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    z-index: -1;
+}
+#title{
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    color: white;
+    font-size: 50pt;
+}
+nav{
+    background-color: white;
+    width: 790px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+}
+a{
+    padding: 33px;
+    width: 114px;
+}
+a:hover{
+    background-color: white;
+    border-radius: 50%;
+}
+a:nth-child(4){
+    background-color: white;
+    border-radius: 50%;
+}
