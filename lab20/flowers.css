@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    width: 129px;
+    height: 129px;
+    margin: 10px;
+    float: left;
+}
+img:nth-child(4n+1){
+    clear: both;
+}
+#flowerbed:hover img{
+    opacity: .1;
+}
+#flowerbed:hover img:hover{
+    opacity: 1;
+    transform: rotate(180deg) scale(1.5);
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+}
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+body{
+    position: relative;
+}
+#flowerbed img{
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+}
+a{
+    position: absolute;
+    right: 0;
+}
