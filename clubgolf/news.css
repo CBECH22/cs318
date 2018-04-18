@@ -1,5 +1,7 @@
 body{
-    background-color: rgb(53, 192, 53);
+    background-image: url(https://wallpapercave.com/wp/ut6qCDs.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 #course{
     width: 100%;
@@ -13,8 +15,8 @@ header{
 }
 #title{
     position: absolute;
-    top: 10%;
-    right: 23%;
+    top: 50px;
+    right: 185px;;
     color: white;
     font-size: 50pt;
 }
@@ -24,6 +26,7 @@ nav{
     margin-right: auto;
     margin-left: auto;
     padding: 5px;
+    margin-bottom: 4px;
 }
 a{
     padding: 33px;
@@ -58,5 +61,51 @@ a:visited{
 }
 main{
     background-color: white;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+h1{
+    margin: 0;
+    padding:10px;
+    text-align: center;
+}
+.right{
+    width: 400px;
+    height: 205px;
+    padding: 10px;
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0;
+    float: right;
+}
+.left{
+    width: 400px;
+    /* display: inline-block; */
+    height: 225px;
+    float: left;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+#article2{
+    /* display: inline-block; */
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+    text-align: center;
+    background-color: white;
+    height: 225px;
 
+}
+#para{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    height: 225px;
+    text-align: center;
+    width: 420px;
+}
+#calendar{
+    padding-right: 25px;
 }

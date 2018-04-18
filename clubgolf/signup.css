@@ -1,5 +1,7 @@
 body{
-    background-color: rgb(53, 192, 53);
+    background-image: url(https://wallpapercave.com/wp/ut6qCDs.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 #course{
     width: 100%;
@@ -24,6 +26,7 @@ nav{
     margin-right: auto;
     margin-left: auto;
     padding: 5px;
+    margin-bottom: 4px;
 }
 a{
     padding: 33px;
