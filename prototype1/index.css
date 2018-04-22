@@ -95,6 +95,7 @@ p{
         padding: 5px;
         position: none;
         height: 20px;
+        width: 85px;
     }
     a:hover{
         background-image: none;
@@ -113,5 +114,8 @@ p{
     }
     #smallnav{
         text-align: center;
+    }
+    #title{
+        margin-left: 200px;
     }
 }
