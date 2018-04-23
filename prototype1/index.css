@@ -111,11 +111,16 @@ p{
     }
     header{
         width: 100%;
+        position: none;
     }
     #smallnav{
         text-align: center;
     }
-    #title{
-        margin-left: 200px;
+    img{
+        width: 100%;
+    }
+    p{
+        width: 100%;
+        padding: 5px;
     }
 }
