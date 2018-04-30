@@ -69,43 +69,26 @@ main{
 }
 h1{
     margin: 0;
-    padding:10px;
+    padding: 10px;
     text-align: center;
 }
-.right{
+ .right{
     width: 400px;
-    height: 205px;
-    padding: 10px;
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-    float: right;
+    height: 175px;
+    float:  right;
 }
+
 .left{
     width: 400px;
-    /* display: inline-block; */
-    height: 225px;
-    float: left;
-    padding-right: 25px;
-    padding-left: 25px;
+    height: 200px;
 }
-#article2{
-    /* display: inline-block; */
+
+.article{
     margin-right: auto;
     margin-left: auto;
     width: 900px;
     text-align: center;
     background-color: white;
-    height: 225px;
-
-}
-#para{
-    display: flex;
-    flex-direction: column;
-    justify-content: center; 
-    height: 225px;
-    text-align: center;
-    width: 420px;
 }
 #calendar{
     padding-right: 25px;
@@ -132,8 +115,9 @@ footer a{
     nav{
         width: 100%;
         padding: 0;
+        text-align: center;
     }
-    a{
+    nav a{
         display: inline-block;
         text-align: center;
         padding: 5px;
@@ -141,17 +125,18 @@ footer a{
         height: 20px;
         width: 85px;
     }
-    a:hover{
+    nav a:hover{
         background-image: none;
         color: green;
     }
-    a:nth-child(3){
+    nav a:nth-child(3){
         background-image: none;
         color: green;
     }
     main{
         width: 100%;
         margin-right: 0;
+        padding-bottom: 0;
     }
     header{
         width: 100%;
@@ -165,5 +150,25 @@ footer a{
     p{
         width: 100%;
         padding: 5px;
+    }
+    .right{
+        float: none;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 0;
+    }
+    .left{
+        float: none;
+        float: none;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .article{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
     }
 }

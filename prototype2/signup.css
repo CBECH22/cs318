@@ -89,10 +89,11 @@ footer a{
     width: 25px;
     height: 25px;
 }
-@media (max-width: 1000px){
+@media (max-width: 850px){
     nav{
         width: 100%;
         padding: 0;
+        text-align: center;
     }
     nav a{
         display: inline-block;
