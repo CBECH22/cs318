@@ -1,0 +1,137 @@
+body{
+    background-image: url(https://wallpapercave.com/wp/ut6qCDs.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+#course{
+    width: 100%;
+}
+header{
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    z-index: -1;
+}
+#title{
+    position: absolute;
+    top: 10%;
+    right: 23%;
+    color: white;
+    font-size: 50pt;
+}
+nav{
+    background-color: white;
+    width: 890px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 5px;
+    margin-bottom: 4px;
+}
+nav a{
+    padding: 33px;
+    height:114px;
+}
+nav a:hover{
+    background-image: url(golfball.png);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+nav a:nth-child(5){
+    background-image: url(golfball.png);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+a:link{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 15pt;
+}
+a:visited{
+    color: Black;
+    text-decoration: none;
+}
+#tee{
+    float: left;
+}
+main{
+    background-color: white;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 45px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    border-spacing: 0px;
+}
+td{
+    border: 1px solid black;
+    width: 10em;
+    text-align: center;
+    height: 2em;
+}
+footer{
+    text-align: center;
+    background-color: white;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4px;
+}
+footer img{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 35%;
+}
+footer a{
+    width: 25px;
+    height: 25px;
+}
+@media (max-width: 1000px){
+    nav{
+        width: 100%;
+        padding: 0;
+    }
+    nav a{
+        display: inline-block;
+        text-align: center;
+        padding: 5px;
+        position: none;
+        height: 20px;
+        width: 85px;
+    }
+    nav a:hover{
+        background-image: none;
+        color: green;
+    }
+    nav a:nth-child(5){
+        background-image: none;
+        color: green;
+    }
+    main{
+        width: 100%;
+        margin-right: 0;
+    }
+    header{
+        width: 100%;
+    }
+    #smallnav{
+        text-align: center;
+    }
+    #title{
+        margin-left: 200px;
+    }
+    footer{
+        width: 100%;
+    }
+}
