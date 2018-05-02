@@ -1,0 +1,67 @@
+
+main{
+    background-color: white;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+h1{
+    margin: 0;
+    padding:10px;
+    text-align: center;
+}
+#buddies{
+    width: 450px;
+}
+#openpic{
+    text-align: center;
+}
+p{
+    width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+nav a:nth-child(1){
+    background-image: url(../Images/golfball.png);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+footer{
+    text-align: center;
+    background-color: white;
+    width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4px;
+}
+footer img{
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 35%;
+}
+footer a{
+    width: 25px;
+    height: 25px;
+}
+@media (max-width: 850px){
+    #smallnav{
+        text-align: center;
+    }
+    #buddies{
+        width: 95%;
+    }
+    main p{
+        width: 95%;
+        padding: 10px;
+    }
+    nav a:nth-child(1){
+        background-image: none;
+        color: green;
+    }
+}

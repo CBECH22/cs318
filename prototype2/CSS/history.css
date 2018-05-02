@@ -1,0 +1,63 @@
+nav a:nth-child(4){
+    background-image: url(../Images/golfball.png);
+    border-radius: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+a:visited{
+    color: Black;
+    text-decoration: none;
+}
+main{
+    background-color: white;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 45px;
+}
+#year{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20pt;
+}
+#CS{
+    text-align: center;
+}
+#h2018:hover{
+    background-image: none;
+    color: green;
+}
+#h2019:hover{
+    background-image: none;
+    color: green;
+}
+.centerhead{
+    text-align: center;
+}
+main img{
+    width: 250px;
+}
+.trophy{
+    text-align: center;
+}
+p{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (max-width: 850px){
+    nav a:nth-child(4){
+        background-image: none;
+        color: green;
+    }
+    #smallnav{
+        text-align: center;
+    }
+    .trophy{
+        width: 95%;
+    }
+    main p{
+        width: 95%;
+        padding: 5px;
+}
